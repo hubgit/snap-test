@@ -2,8 +2,11 @@
 <meta charset="utf-8">
 <title>Topcoat Test</title>
 
+<!-- metadata -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <!-- styles -->
-<link rel="stylesheet" href="vendor/topcoat/css/topcoat-mobile-light.css">
+<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" href="vendor/snap/snap.css">
 <link rel="stylesheet" href="css/drawers.css">
 <link rel="stylesheet" href="css/header.css">
@@ -16,9 +19,9 @@
 	</div>
 </nav>
 
-<article id="content" class="snap-content">
-	<header>
-        <a href="#" id="toggle-snapper" class="toggle"></a>
+<article id="content" class="container snap-content">
+	<header class="navbar">
+        <a href="#" id="snap-toggle" class="snap-toggle"></a>
         <h1>Heading</h1>
     </header>
 
@@ -28,7 +31,13 @@
 </article>
 
 <!-- scripts -->
+<script src="vendor/jquery/jquery.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.js"></script>
+
 <script src="vendor/snap/snap.js"></script>
-<script src="vendor/lawnchair/lawnchair.js"></script>
-<script src="vendor/lawnchair/lawnchair-adapter-indexed-db.js"></script>
-<script src="js/app.js"></script>
+<script src="js/snap.js"></script>
+
+<script src="vendor/backbone/underscore.js"></script>
+<script src="vendor/backbone/backbone.js"></script>
+<script src="vendor/backbone/backbone-indexeddb.js"></script>
+<script src="js/models.js"></script>

@@ -19,3 +19,10 @@
   color: #ccc;
   text-indent: 20px;
 }
+
+.snap-toggle {
+  background: url(../vendor/snap/open.png) center center no-repeat;
+  display: block;
+  width: 44px;
+  height: 44px;
+}

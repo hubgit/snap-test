@@ -1,14 +1,7 @@
-p {
-  padding: 1rem;
-}
-
 article {
   background: #BFC7D8;
 }
 
-.toggle {
-  background: url(../images/open.png) center center no-repeat;
-  display: block;
-  width: 44px;
-  height: 44px;
+p {
+  padding: 1rem;
 }
