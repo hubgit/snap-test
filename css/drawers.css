@@ -1,0 +1,21 @@
+
+.snap-drawers {
+  background: #323949;
+}
+
+.snap-drawer {
+	background: #323949;
+	color: #eee;
+}
+
+.snap-drawer a {
+  display: block;
+  border-bottom: 1px solid rgba(0,0,0, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  font-weight: bold;
+  text-shadow: 0 1px 0 #000;
+  text-decoration: none;
+  color: #ccc;
+  text-indent: 20px;
+}
